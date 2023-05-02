@@ -12,4 +12,8 @@
 
 # Make exe
 
-`pyistaller --onefile switch_creds.py`
+`pyistaller --onefile creds_download.py`
+
+`pyistaller --onefile creds_switch.py`
+
+# Copy exe's from dist folder to PATH
